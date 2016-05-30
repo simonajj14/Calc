@@ -1,0 +1,15 @@
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class SumTest {
+	public void SumTest{
+		Calculator calculator = new Calculator();
+		int sum = calculator.add("1+2");
+		assertEquals(3, sum);
+	}
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
